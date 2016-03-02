@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hbeckmann/excuse-me#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "firebase": "^2.4.1"
   }
 }
