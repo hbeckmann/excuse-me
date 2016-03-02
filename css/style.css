@@ -1,0 +1,31 @@
+.box {
+    background-color: grey;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    color:white;
+}
+
+.school{
+background-color:#db823e;
+}
+
+.work{
+background-color: #ce3c46;
+}
+
+.social{
+background-color: #a4335d;
+}
+
+.events{
+background-color: #724686;
+}
+
+.funny{
+background-color:#3d68a2;
+}
+
+.love{
+background-color:#489b77;
+}
