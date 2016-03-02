@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="excuseSubmit">
+  <head>
+    <meta charset="utf-8">
+    <title>Submit a new excuse</title>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="excuseSubController as excuser">
+
+    Select a genre: <select ng-model="excuser.input" ng-options="item as item.label for item in excuser.genres"></select></br>
+    Enter an excuse: <input type="text" ng-model="excuser.message">
+    {{excuser.input}}</br>
+    <button ng-click="excuser.submitExcuse()">Submit</button>
+
+
+
+  </body>
+</html>

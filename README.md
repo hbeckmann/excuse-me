@@ -1,6 +1,9 @@
 # excuse-me
 A mobile excuse generator
 
+Use NPM INSTALL to install the dependencies.
+Enter GULP to start the server.
+
 
 Basic Testing Plan - March 1, 2016
 Excuser App Testing Plan
@@ -20,4 +23,4 @@ Menu Functions:
 - Submit button opens the new excuse submission form correctly
 - Share button correctly opens share options
 - New button correctly lets the user add a new excuse
-- List button correctly opens the list of excuses 
+- List button correctly opens the list of excuses
