@@ -4,12 +4,26 @@ angular.module('excuseSubmit', [])
     var self = this;
     self.genres = [{
       id: 0,
-      label: 'Work'
+      label: 'School',
+      subgenres: ['General', 'High School', 'College']
     }, {
       id: 1,
-      label: 'School'
+      label: 'Work'
+    }, {
+      id: 2,
+      label: 'Social'
+    }, {
+      id: 3,
+      label: 'Events'
+    }, {
+      id: 4,
+      label: 'Funny'
+    }, {
+      id: 5,
+      label: 'Social'
     }];
     self.input = self.genres[0];
+    self.subInput = self.input.subgenres[0];
     self.message = "";
 
     self.submitExcuse = function() {
@@ -17,6 +31,7 @@ angular.module('excuseSubmit', [])
       $http.post('/submit',
         {
           'genre': self.input.label,
+          'subgenre': self.subInput,
           'message': self.message
         }).then(function(res) {
           alert('thanks for submitting!');

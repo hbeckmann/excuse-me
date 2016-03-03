@@ -12,13 +12,25 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({'extended': true}));
 
 
-app.get('/excuse/:genre?/:id?', function(req,res){
+app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
 
+  var possibleSubgenres = ['highschool','college'];
+  var extension = '/-';
+  for(x in possibleSubgenres){
+    if(req.params.subgenre){
+      if(req.params.subgenre.toLowerCase() == possibleSubgenres[x]){
+        extension = "/";
+        console.log('subgenre detected!');
+      }
+    }
+  };
   console.log(req.params);
   var refString = "https://excuser.firebaseio.com/excuse/";
-  if(req.params.id && req.params.genre) {
-    refString += req.params.genre.toLowerCase() + '/-' + req.params.id;
-  } else if(req.params.genre) {
+  if(req.params.id && req.params.subgenre && req.params.genre) {
+    refString += req.params.genre.toLowerCase() + '/' + req.params.subgenre + '/-' + req.params.id;
+  }else if(req.params.subgenre && req.params.genre){
+    refString += req.params.genre + extension + req.params.subgenre;
+  }else if(req.params.genre) {
     refString += req.params.genre.toLowerCase();
   };
   console.log(refString);
@@ -39,7 +51,12 @@ app.get('/submit', function(req,res){
 });
 
 app.post('/submit', function(req, res) {
-  var submissionRef = new Firebase('https://excuser.firebaseio.com/excuse/' + req.body.genre.toLowerCase());
+  var subgenre = "";
+  if(req.body.subgenre !== "General"){
+    subgenre = req.body.subgenre;
+    subgenre = subgenre.replace(/\s+/g, '');
+  };
+  var submissionRef = new Firebase('https://excuser.firebaseio.com/excuse/' + req.body.genre.toLowerCase() + '/' + subgenre.toLowerCase());
   submissionRef.push({'excuse': req.body.message });
   console.log('Excuse saved: ' + req.body.message);
   res.send('Excuse Saved');
