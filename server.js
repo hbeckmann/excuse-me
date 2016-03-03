@@ -22,7 +22,6 @@ app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
         extension = "/";
         console.log('subgenre detected!');
       }
-    }
   };
   console.log(req.params);
   var refString = "https://excuser.firebaseio.com/excuse/";
