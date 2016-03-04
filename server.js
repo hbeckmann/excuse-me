@@ -61,6 +61,10 @@ app.post('/submit', function(req, res) {
   res.send('Excuse Saved');
 });
 
+app.get('/random', function(req,res){
+  
+});
+
 
 
 
