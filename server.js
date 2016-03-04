@@ -19,7 +19,7 @@ app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
   if(req.params.id && req.params.subgenre && req.params.genre) {
     refString += req.params.genre.toLowerCase() + '/' + req.params.subgenre + '/-' + req.params.id;
   }else if(req.params.subgenre && req.params.genre) {
-    refString += req.params.genre + extension + req.params.subgenre;
+    refString += req.params.genre + '/' + req.params.subgenre;
   }else if(req.params.genre) {
     refString += req.params.genre.toLowerCase();
   };
