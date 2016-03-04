@@ -5,7 +5,7 @@ angular.module('excuseSubmit', [])
     self.genres = [{
       id: 0,
       label: 'School',
-      subgenres: ['Homework ', 'Absence', 'Tardiness', 'Tests', 'Late Work']
+      subgenres: ['Homework ', 'Absence', 'Tardiness', 'Tests', 'Late Work', 'Cheating']
     }, {
       id: 1,
       label: 'Work'
@@ -17,7 +17,7 @@ angular.module('excuseSubmit', [])
     }, {
       id: 3,
       label: 'Events'
-      subgenres: ['Funeral', 'Family', 'School']
+      subgenres: ['Funeral', 'Family', 'School', 'Performance', 'Sports']
     }, {
       id: 4,
       label: 'Funny'
