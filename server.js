@@ -22,12 +22,13 @@ app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
         extension = "/";
         console.log('subgenre detected!');
       }
+    }
   };
   console.log(req.params);
   var refString = "https://excuser.firebaseio.com/excuse/";
   if(req.params.id && req.params.subgenre && req.params.genre) {
     refString += req.params.genre.toLowerCase() + '/' + req.params.subgenre + '/-' + req.params.id;
-  }else if(req.params.subgenre && req.params.genre){
+  }else if(req.params.subgenre && req.params.genre) {
     refString += req.params.genre + extension + req.params.subgenre;
   }else if(req.params.genre) {
     refString += req.params.genre.toLowerCase();
@@ -62,7 +63,7 @@ app.post('/submit', function(req, res) {
 });
 
 app.get('/random', function(req,res){
-  
+
 });
 
 
