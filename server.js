@@ -14,16 +14,6 @@ app.use(bodyParser.urlencoded({'extended': true}));
 
 app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
 
-  var possibleSubgenres = ['highschool','college'];
-  var extension = '/-';
-  for(x in possibleSubgenres){
-    if(req.params.subgenre){
-      if(req.params.subgenre.toLowerCase() == possibleSubgenres[x]){
-        extension = "/";
-        console.log('subgenre detected!');
-      }
-    }
-  };
   console.log(req.params);
   var refString = "https://excuser.firebaseio.com/excuse/";
   if(req.params.id && req.params.subgenre && req.params.genre) {
