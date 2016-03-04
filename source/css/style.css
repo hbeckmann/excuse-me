@@ -113,6 +113,16 @@ background-color:#db823e;
 background-color:#db823e;
 }
 
+.schoolExcuse{
+background-color: #db823e;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    padding: 78px;
+}
+
 .schoolsub > a{
 	display: block;
   background-image: url('../img/arrow.png');
