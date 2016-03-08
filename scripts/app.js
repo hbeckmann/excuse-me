@@ -8,22 +8,22 @@ angular.module('excuseSubmit', [])
       subgenres: ['Homework ', 'Absence', 'Tardiness', 'Tests', 'Late Work', 'Cheating']
     }, {
       id: 1,
-      label: 'Work'
+      label: 'Work',
       subgenres: ['Missed Deadlines', 'Absence', 'Tardiness', 'Meeting', 'Leaving Early']
     }, {
       id: 2,
-      label: 'Social'
+      label: 'Social',
       subgenres: ['Party', 'Dance']
     }, {
       id: 3,
-      label: 'Events'
+      label: 'Events',
       subgenres: ['Funeral', 'Family', 'School', 'Performance', 'Sports']
     }, {
       id: 4,
-      label: 'Funny'
+      label: 'Funny',
     }, {
       id: 5,
-      label: 'Love'
+      label: 'Love',
       subgenres: ['Date', 'Break Up', 'Forget Anniversary', 'Inlaws']
     }];
     self.input = self.genres[0];
@@ -40,7 +40,12 @@ angular.module('excuseSubmit', [])
         }).then(function(res) {
           alert('thanks for submitting!');
         })
-      };
+    };
 
+    self.getRandomExcuse = function() {
+      $http.get('/random').then(function(res) {
+          alert('thanks for submitting!');
+        })
+    };
 
   });

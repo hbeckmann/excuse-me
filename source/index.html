@@ -1,4 +1,4 @@
-<html>
+<html ng-app="excuser">
 <head>
 <title>Excuser</title>
 <!-- Latest compiled and minified CSS -->
@@ -12,9 +12,12 @@
 <!-- Latest compiled and minified JavaScript -->
 <script type="text/javascript" src="js/menu.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="angular.js"></script>
+<script src="main.js"></script>
+
 </head>
 
-<body>
+<body ng-controller="excuserController as excuse">
 	<div class="container">
 
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -29,7 +32,7 @@
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
 					      <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="submit.html">Submit</a></li>
+                <li><a href="/submit">Submit</a></li>
 				    </ul>
   </div>
 </div>
@@ -45,7 +48,7 @@
 </div>
 
 <div class="col-xs-12 col-lg-4">
-	
+
 	<div class="box work">
 	<a href="#"><h1>Work</h1></a>
 
@@ -82,7 +85,7 @@
 </div><!--End of Row -->
 
 
-<button class="go">GO</button>
+<button ng-click="excuse.getRandomExcuse()" class="go">GO</button>
 
 
 <footer>&copy; Copyright 2016 Excuser</footer>
