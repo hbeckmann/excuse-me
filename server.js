@@ -53,7 +53,21 @@ app.post('/submit', function(req, res) {
 });
 
 app.get('/random', function(req,res){
-
+  //Currently only returns a random Genre - need to implement random sub genre and random excuse.
+  var refString = "https://excuser.firebaseio.com/excuse/";
+  var possibleGenres = ['school', 'work']
+  var randomIndex = Math.random() * (possibleGenres.length - 0) | 0;
+  var randomGenre = possibleGenres[randomIndex];
+  refString += randomGenre;
+  var searchRef = new Firebase(refString);
+  var excuse;
+  searchRef.once("value", function(snapshot){
+    excuse = snapshot.val();
+    res.send(excuse);
+  }, function (errorObject) {
+    console.log(errorObject);
+    res.end();
+  });
 });
 
 
