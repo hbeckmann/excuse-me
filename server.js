@@ -76,3 +76,4 @@ app.get('/random', function(req,res){
 var port = 8000;
 app.listen(process.env.PORT || port);
 console.log('Server started on ' + port);
+module.exports = app;
