@@ -14,6 +14,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="angular.js"></script>
 <script src="main.js"></script>
+<script src="angular-route.js"></script>
+<base href="/">
 
 </head>
 
@@ -40,50 +42,8 @@
 <header>
 <h1 align="center">Excuser</h1>
 </header>
-<div class="row">
-<div class="col-xs-12 col-lg-4">
-<div class="box school">
-<a href="categories/school/schoolcat.html"><h1>School</h1></a>
-</div>
-</div>
 
-<div class="col-xs-12 col-lg-4">
-
-	<div class="box work">
-	<a href="categories/work/workcat.html"><h1>Work</h1></a>
-
-</div>
-</div>
-
-<div class="col-xs-12 col-lg-4">
-	<div class="box social">
-<a href="categories/social/socialcat.html"><h1>Social</h1></a>
-</div>
-</div>
-
-</div><!--End of Row -->
-
-<div class="row">
-<div class="col-xs-12 col-lg-4">
-<div class="box events">
-<a href="categories/events/eventscat.html"><h1>Events</h1></a>
-</div>
-</div>
-
-<div class="col-xs-12 col-lg-4">
-	<div class="box funny">
-	<a href="categories/funny/funnycat.html"><h1>Funny</h1></a>
-</div>
-</div>
-
-<div class="col-xs-12 col-lg-4">
-	<div class="box love">
-<a href="categories/love/lovecat.html"><h1>Love</h1></a>
-</div>
-</div>
-
-</div><!--End of Row -->
-
+<div ng-view></div>
 
 <button ng-click="excuse.getRandomExcuse()" class="go">GO</button>
 

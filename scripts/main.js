@@ -1,4 +1,4 @@
-angular.module('excuser', [])
+angular.module('excuser', ['ngRoute'])
   .controller('excuserController', function($http) {
 
     var self = this;
@@ -8,4 +8,15 @@ angular.module('excuser', [])
       })
     };
 
-  });
+  })
+  .config(['$routeProvider', '$locationProvider',
+  function($routeProvider, $locationProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/main.html',
+        controller: 'excuserController',
+        controllerAs: 'excuse'
+      })
+
+    $locationProvider.html5Mode(true);
+}])

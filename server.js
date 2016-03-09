@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 
 app.use(express.static('source'));
 app.use(express.static('node_modules/angular/'));
+app.use(express.static('/angular/'));
+app.use(express.static('node_modules/angular-route/'));
 app.use(express.static('scripts'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({'extended': true}));
