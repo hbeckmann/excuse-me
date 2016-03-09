@@ -21,6 +21,7 @@ angular.module('excuseSubmit', [])
     }, {
       id: 4,
       label: 'Funny',
+      subgenres: ['Pop Culture', 'Political', 'Ridiculous']
     }, {
       id: 5,
       label: 'Love',
