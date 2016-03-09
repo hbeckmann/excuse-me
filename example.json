@@ -1,0 +1,50 @@
+{
+  "excuse" : {
+    "school" : {
+      "absence" : {
+        "-KCNibFvmyT7oeXXIBb7" : {
+          "excuse" : "My cat's mom died and I was at her funeral."
+        }
+      },
+      "cheating" : {
+        "-KCNj1oEeriFoYHLsIog" : {
+          "excuse" : "It's my fault, their paper asked me to look at it."
+        }
+      },
+      "homework" : {
+        "-KCNhScRSmiopmQCL7kp" : {
+          "excuse" : "My fingers were paralyzed, but now they are fine."
+        },
+        "-KCNhY1Ch78tc-_hD9UD" : {
+          "excuse" : "I was in the hospital."
+        },
+        "-KCNhbsZ2TUSHaT7Jims" : {
+          "excuse" : "My doctor said I was allergic to homework."
+        }
+      },
+      "latework" : {
+        "-KCNjEietlOEkcOIfhmr" : {
+          "excuse" : "My computer died when I was submitting the assignment and wouldn't turn on until today."
+        }
+      },
+      "tardiness" : {
+        "-KCNiJFp2LcR9OKvqIeg" : {
+          "excuse" : "I had to flirt with the Cup Bop girl."
+        },
+        "-KCNiRlkubVydTliNaod" : {
+          "excuse" : "My car broke down at Taco Bell."
+        }
+      },
+      "tests" : {
+        "-KCNjW9Og6n2nPUp9s5c" : {
+          "excuse" : "I was so nervous, I pooped my pants."
+        }
+      }
+    },
+    "work" : {
+      "-KBptEk4qEuQN7p4FIQ4" : {
+        "excuse" : "My keyboard wasn't working."
+      }
+    }
+  }
+}
