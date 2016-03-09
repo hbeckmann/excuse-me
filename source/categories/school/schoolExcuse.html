@@ -1,8 +1,8 @@
-<html ng-app="excuser">
+<html>
 <head>
-<title>Excuser</title>
+<title>Excuser | School | Homework Excuse</title>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../../css/style.css">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -12,12 +12,9 @@
 <!-- Latest compiled and minified JavaScript -->
 <script type="text/javascript" src="js/menu.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="angular.js"></script>
-<script src="main.js"></script>
-
 </head>
 
-<body ng-controller="excuserController as excuse">
+<body>
 	<div class="container">
 
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -31,8 +28,8 @@
   </div>
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-					      <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="/submit">Submit</a></li>
+					      <li class="active"><a href="../../index.html">Home</a></li>
+                    <li><a href="../submit.html">Submit</a></li>
 				    </ul>
   </div>
 </div>
@@ -40,52 +37,23 @@
 <header>
 <h1 align="center">Excuser</h1>
 </header>
-<div class="row">
-<div class="col-xs-12 col-lg-4">
-<div class="box school">
-<a href="categories/school/schoolcat.html"><h1>School</h1></a>
-</div>
-</div>
 
-<div class="col-xs-12 col-lg-4">
-
-	<div class="box work">
-	<a href="categories/work/workcat.html"><h1>Work</h1></a>
-
-</div>
-</div>
-
-<div class="col-xs-12 col-lg-4">
-	<div class="box social">
-<a href="categories/social/socialcat.html"><h1>Social</h1></a>
-</div>
-</div>
-
-</div><!--End of Row -->
 
 <div class="row">
-<div class="col-xs-12 col-lg-4">
-<div class="box events">
-<a href="categories/events/eventscat.html"><h1>Events</h1></a>
-</div>
+
+<div class="col-lg-12">
+
+<div class="schoolExcuse">
+<p>I'm Sorry I didn't turn in my homework. I was in an all
+you can eat hot dog contest at Coney Island.</p>
 </div>
 
-<div class="col-xs-12 col-lg-4">
-	<div class="box funny">
-	<a href="categories/funny/funnycat.html"><h1>Funny</h1></a>
-</div>
 </div>
 
-<div class="col-xs-12 col-lg-4">
-	<div class="box love">
-<a href="categories/love/lovecat.html"><h1>Love</h1></a>
-</div>
 </div>
 
-</div><!--End of Row -->
 
-
-<button ng-click="excuse.getRandomExcuse()" class="go">GO</button>
+<button class="go">GO</button>
 
 
 <footer>&copy; Copyright 2016 Excuser</footer>
