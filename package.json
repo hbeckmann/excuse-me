@@ -24,6 +24,13 @@
     "express": "^4.13.4",
     "firebase": "^2.4.1",
     "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.0.6"
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "should": "^8.2.2",
+    "sinon": "^1.17.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "supertest": "^1.2.0"
   }
 }
