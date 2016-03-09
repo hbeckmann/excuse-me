@@ -123,9 +123,28 @@ background-color: #db823e;
     padding: 78px;
 }
 
+.schoolExcuse{
+background-color: #d03a43;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    padding: 78px;
+}
+
+
 .schoolsub > a{
 	display: block;
   background-image: url('../img/arrow.png');
+  background-size: 9%;
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+}
+
+.worksub > a{
+  display: block;
+  background-image: url('../img/arrow1.png');
   background-size: 9%;
   background-repeat: no-repeat;
   background-position: 92% 50%;
