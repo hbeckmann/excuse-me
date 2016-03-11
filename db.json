@@ -1,5 +1,17 @@
 {
   "excuse" : {
+    "events" : {
+      "funeral" : {
+        "-KCYHNV_dpfax6G_n_0O" : {
+          "excuse" : "Dead people freak me out"
+        }
+      },
+      "school" : {
+        "-KCYHW3XvPbttPzZtE9F" : {
+          "excuse" : "I have a family party anywhere but here."
+        }
+      }
+    },
     "school" : {
       "absence" : {
         "-KCNibFvmyT7oeXXIBb7" : {
