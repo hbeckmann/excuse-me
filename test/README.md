@@ -1,8 +1,8 @@
-For testing:
-`npm install gulp`
-`npm install gulp-nodemon`
-`npm install gulp-env`
-`gulp test`
+For testing:  
+`npm install gulp`  
+`npm install gulp-nodemon`  
+`npm install gulp-env`  
+`gulp test`  
 
 
 Basic Testing Plan - March 1, 2016
