@@ -1,4 +1,4 @@
-angular.module('excuser', ['ngRoute'])
+angular.module('excuser', ['ngRoute', 'excuseSubmit'])
   .controller('excuserController', function($http) {
 
     var self = this;
@@ -16,6 +16,11 @@ angular.module('excuser', ['ngRoute'])
         templateUrl: 'views/main.html',
         controller: 'excuserController',
         controllerAs: 'excuse'
+      })
+      .when('/submit', {
+        templateUrl: '/submit',
+        controller: 'excuseSubController',
+        controllerAs: 'excuser'
       })
       .when('/school', {
         templateUrl: 'views/schoolcat.html',
@@ -40,4 +45,4 @@ angular.module('excuser', ['ngRoute'])
      })
 
     $locationProvider.html5Mode(true);
-}])
+}]);

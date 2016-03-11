@@ -42,6 +42,7 @@ app.get('/submit', function(req,res){
   res.sendFile(path.join(__dirname, './source/submit.html'));
 });
 
+
 app.post('/submit', function(req, res) {
   var subgenre = "";
   if(req.body.subgenre !== "General"){
@@ -72,7 +73,9 @@ app.get('/random', function(req,res){
   });
 });
 
-
+app.get('*', function(req, res){
+    res.redirect('/');
+});
 
 
 var port = 9000;
