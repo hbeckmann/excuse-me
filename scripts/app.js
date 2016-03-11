@@ -31,6 +31,7 @@ angular.module('excuseSubmit', [])
     self.subInput = self.input.subgenres[0];
     self.message = "";
 
+
     self.submitExcuse = function() {
 
       $http.post('/submit',
