@@ -68,37 +68,37 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
         templateUrl: 'views/schoolcat.html',
      })
       .when('/school/:subgenre', {
-        templateUrl: 'views/excuseTemplate.html',
+        templateUrl: 'views/excuserSchool.html',
      })
       .when('/work', {
         templateUrl: 'views/workcat.html',
      })
      .when('/work/:subgenre', {
-       templateUrl: 'views/excuseTemplate.html',
+       templateUrl: 'views/excuserWork.html',
     })
       .when('/social', {
         templateUrl: 'views/socialcat.html',
      })
      .when('/social/:subgenre', {
-       templateUrl: 'views/excuseTemplate.html'
+       templateUrl: 'views/excuserSocial.html'
      })
      .when('/events', {
        templateUrl: 'views/eventscat.html',
     })
     .when('/events/:subgenre', {
-      templateUrl: 'views/excuseTemplate.html'
+      templateUrl: 'views/excuserEvents.html'
     })
     .when('/funny', {
       templateUrl: 'views/funnycat.html',
    })
    .when('/funny/:subgenre', {
-     templateUrl: 'views/excuseTemplate.html'
+     templateUrl: 'views/excuserFunny.html'
    })
    .when('/love', {
      templateUrl: 'views/lovecat.html',
   })
   .when('/love/:subgenre', {
-    templateUrl: 'views/excuseTemplate.html'
+    templateUrl: 'views/excuserLove.html'
   })
 
     $locationProvider.html5Mode(true);
