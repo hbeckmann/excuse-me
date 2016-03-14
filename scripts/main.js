@@ -77,8 +77,29 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
        templateUrl: 'views/excuseTemplate.html',
     })
       .when('/social', {
-        templateUrl: 'views/workExcuse.html',
+        templateUrl: 'views/socialcat.html',
      })
+     .when('/social/:subgenre', {
+       templateUrl: 'views/excuseTemplate.html'
+     })
+     .when('/events', {
+       templateUrl: 'views/eventscat.html',
+    })
+    .when('/events/:subgenre', {
+      templateUrl: 'views/excuseTemplate.html'
+    })
+    .when('/funny', {
+      templateUrl: 'views/funnycat.html',
+   })
+   .when('/funny/:subgenre', {
+     templateUrl: 'views/excuseTemplate.html'
+   })
+   .when('/love', {
+     templateUrl: 'views/lovecat.html',
+  })
+  .when('/love/:subgenre', {
+    templateUrl: 'views/excuseTemplate.html'
+  })
 
     $locationProvider.html5Mode(true);
 }]);

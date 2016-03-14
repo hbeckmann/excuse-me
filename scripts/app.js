@@ -34,6 +34,7 @@ angular.module('excuseSubmit', [])
 
     self.submitExcuse = function() {
 
+      if(!self.subInput) {alert('You must select a subgenre.'); return;};
       $http.post('/submit',
         {
           'genre': self.input.label,
