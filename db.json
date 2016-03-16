@@ -1,74 +1,333 @@
 {
-  "excuse" : {
-    "events" : {
-      "funeral" : {
-        "-KCYHNV_dpfax6G_n_0O" : {
-          "excuse" : "Dead people freak me out"
-        }
-      },
-      "school" : {
-        "-KCYHW3XvPbttPzZtE9F" : {
-          "excuse" : "I have a family party anywhere but here."
-        }
+  "events" : {
+    "funeral" : {
+      "-KCYHNV_dpfax6G_n_0O" : {
+        "excuse" : "Dead people freak me out"
       }
     },
     "school" : {
-      "absence" : {
-        "-KCNibFvmyT7oeXXIBb7" : {
-          "excuse" : "My cat's mom died and I was at her funeral."
-        },
-        "-KCNrOtRvrmvYP58ApnT" : {
-          "excuse" : "I was in Africa."
-        }
+      "-KCYHW3XvPbttPzZtE9F" : {
+        "excuse" : "I have a family party anywhere but here."
+      }
+    }
+  },
+  "funny" : {
+    "political" : {
+      "-KCZhT8F4Oy44sk8rw0T" : {
+        "excuse" : "I'm attending a Trump rally."
       },
-      "cheating" : {
-        "-KCNj1oEeriFoYHLsIog" : {
-          "excuse" : "It's my fault, their paper asked me to look at it."
-        }
-      },
-      "homework" : {
-        "-KCNhScRSmiopmQCL7kp" : {
-          "excuse" : "My fingers were paralyzed, but now they are fine."
-        },
-        "-KCNhY1Ch78tc-_hD9UD" : {
-          "excuse" : "I was in the hospital."
-        },
-        "-KCNhbsZ2TUSHaT7Jims" : {
-          "excuse" : "My doctor said I was allergic to homework."
-        }
-      },
-      "latework" : {
-        "-KCNjEietlOEkcOIfhmr" : {
-          "excuse" : "My computer died when I was submitting the assignment and wouldn't turn on until today."
-        }
-      },
-      "tardiness" : {
-        "-KCNiJFp2LcR9OKvqIeg" : {
-          "excuse" : "I had to flirt with the Cup Bop girl."
-        },
-        "-KCNiRlkubVydTliNaod" : {
-          "excuse" : "My car broke down at Taco Bell."
-        },
-        "-KCNp0_eg2zw_DePDq9N" : {
-          "excuse" : "Elizabeth kept talking to me."
-        }
-      },
-      "tests" : {
-        "-KCNjW9Og6n2nPUp9s5c" : {
-          "excuse" : "I was so nervous, I pooped my pants."
-        }
+      "-KD-SRTFlpZ6Njyn0J_w" : {
+        "excuse" : "Obama is coming over tonight for some tea and crumpets. At least that is what his text stated. And like they say, never ditch the President, he likes his tea time!"
       }
     },
-    "social" : {
-      "dance" : {
-        "-KCNwN_aRUHzR5vo_-IS" : {
-          "excuse" : "I had recent hip surgery"
-        }
+    "popculture" : {
+      "-KD-SBhM4rqSVAZ99Bev" : {
+        "excuse" : "Unfortunately there is a disturbance in the force, and it is not with me right now. I never go anywhere without the force, Skywalker strongly advises against it."
+      },
+      "-KD-SVpTkGeXrhQf8aVR" : {
+        "excuse" : "I am teaching my parrot to sing Adele's hit song \"Someone Like You\". Why? Because it is a catchy song! Sheesh, no need to judge me!"
       }
     },
-    "work" : {
-      "-KBptEk4qEuQN7p4FIQ4" : {
-        "excuse" : "My keyboard wasn't working."
+    "ridiculous" : {
+      "-KD-RnyIVN5VghIhxUc_" : {
+        "excuse" : "My brother-in-law's friend's father's grandmother's sister's aunt's turtle died, and yes, it was a tragic death. I simply can not go into the details!"
+      },
+      "-KD-RqOdCD5eAzUjwpDG" : {
+        "excuse" : "My fortune teller advised against it."
+      },
+      "-KD-RwNmid2y6t4qpqZ6" : {
+        "excuse" : "I promised to help Ashley clean the toilet at the same time. She doesn't like doing it alone; she gets nervous that she will fall in! Some kind of toilet phobia(a weird name I can't remember for some reason...)"
+      },
+      "-KD-S1m3uHZxoRBRiafJ" : {
+        "excuse" : "I need to spend some serious time worrying about a good excuse as to why I don't want to do anything tonight."
+      },
+      "-KD-S6uLLMfUfkQAfCpY" : {
+        "excuse" : "I do not usually go out on days that end with the letters \"day\". Sorry, personal preference"
+      },
+      "-KD-SE_DhhTZwpO6rkRB" : {
+        "excuse" : "My plot to take over the presidency of the book club is thickening, and I must stay home to make sure everything is working out smoothly."
+      },
+      "-KD-SSsadgC5_rDvNTw-" : {
+        "excuse" : "My hamster needs a good washing! He was playing with the pigs in the mud today. Stupid hamster!"
+      },
+      "-KD-SjHD16dAbZM9Fbpu" : {
+        "excuse" : "I am observing National \"Don't Go Out At All Week\". You haven't heard of that yet? Really, it is getting to be very popular in Amsterdam!"
+      }
+    }
+  },
+  "school" : {
+    "absence" : {
+      "-KCNibFvmyT7oeXXIBb7" : {
+        "excuse" : "My cat's mom died and I was at her funeral."
+      },
+      "-KCNrOtRvrmvYP58ApnT" : {
+        "excuse" : "I was in Africa."
+      }
+    },
+    "cheating" : {
+      "-KCNj1oEeriFoYHLsIog" : {
+        "excuse" : "It's my fault, their paper asked me to look at it."
+      }
+    },
+    "homework" : {
+      "-KCNhScRSmiopmQCL7kp" : {
+        "excuse" : "My fingers were paralyzed, but now they are fine."
+      },
+      "-KCNhY1Ch78tc-_hD9UD" : {
+        "excuse" : "I was in the hospital."
+      },
+      "-KCNhbsZ2TUSHaT7Jims" : {
+        "excuse" : "My doctor said I was allergic to homework."
+      }
+    },
+    "latework" : {
+      "-KCNjEietlOEkcOIfhmr" : {
+        "excuse" : "My computer died when I was submitting the assignment and wouldn't turn on until today."
+      },
+      "-KD-JfOcnYuWo4YU0xL2" : {
+        "excuse" : "I’m late with this assignment because I haven’t actually read the book, and I thought your keen sense of morality would appreciate honesty much more than a faked report."
+      }
+    },
+    "tardiness" : {
+      "-KCNiJFp2LcR9OKvqIeg" : {
+        "excuse" : "I had to flirt with the Cup Bop girl."
+      },
+      "-KCNiRlkubVydTliNaod" : {
+        "excuse" : "My car broke down at Taco Bell."
+      },
+      "-KCNp0_eg2zw_DePDq9N" : {
+        "excuse" : "Elizabeth kept talking to me."
+      },
+      "-KCYQlqPV3L9pCxJPwAJ" : {
+        "excuse" : "My car died and I had to find a ride."
+      }
+    },
+    "tests" : {
+      "-KCNjW9Og6n2nPUp9s5c" : {
+        "excuse" : "I was so nervous, I pooped my pants."
+      }
+    }
+  },
+  "social" : {
+    "dance" : {
+      "-KCNwN_aRUHzR5vo_-IS" : {
+        "excuse" : "I had recent hip surgery"
+      },
+      "-KCnP_HN0QORHodVPbsA" : {
+        "excuse" : "I had the craps!"
+      }
+    }
+  },
+  "work" : {
+    "absence" : {
+      "-KD-CWYYkYlm-PnxnhqY" : {
+        "excuse" : "My kids are sick."
+      },
+      "-KD-Dr9QmvKyhF-bIXgV" : {
+        "excuse" : "I have an appointment that I have been trying to schedule for months."
+      },
+      "-KD-Dw_MeNcmE52tjyiQ" : {
+        "excuse" : "My dog ate chocolate, so I need to take him to the vet."
+      },
+      "-KD-EAlqduaxdtwhe9Z3" : {
+        "excuse" : "I was assigned jury duty."
+      },
+      "-KD-FbnOioVYw6rmshK3" : {
+        "excuse" : "My house was robbed last night so I need to deal with my insurance and the cops today."
+      },
+      "-KD-FmNVml59e5IX_LpQ" : {
+        "excuse" : "The pollen count is so high that my eyes swell and I can't drive."
+      },
+      "-KD-FsE1FJfLCW_i8Qen" : {
+        "excuse" : "My daughter took the car last night, and totaled it."
+      },
+      "-KD-G6wQEa9kWtTZ85ej" : {
+        "excuse" : "Personal reasons"
+      },
+      "-KD-GJEjEvmDgSfbRc-i" : {
+        "excuse" : "I fell in the shower."
+      },
+      "-KD-HOlRCcxeWGmHVR1W" : {
+        "excuse" : "The pipes at my house burst."
+      },
+      "-KD-HWKXw30mCjnjWToI" : {
+        "excuse" : "I ate bad sushi last night, and got food poisoning."
+      },
+      "-KD-Hg5nVtlkvPzcN41B" : {
+        "excuse" : "My car battery died."
+      },
+      "-KD-HrpJHlV3KTBt2Aqu" : {
+        "excuse" : "I was playing football and my tooth got knocked out, so I have an emergency dentist visit."
+      }
+    },
+    "leavingearly" : {
+      "-KD-GDsjTin4_1_-lisq" : {
+        "excuse" : "I am having female problems."
+      },
+      "-KD-GGf1R9Vn7VO77NXo" : {
+        "excuse" : "My child has a school performance."
+      },
+      "-KD-GOE4MjtOx34Z8BnZ" : {
+        "excuse" : "My wife just went into labor."
+      },
+      "-KD-I8N3zATamKu-rup1" : {
+        "excuse" : "My mother is being taken to the hospital."
+      },
+      "-KD-OUHk4RTy0yL_4VwJ" : {
+        "excuse" : "A big storm is supposed to come in."
+      },
+      "-KD-OnsO8OsiRSUABoEg" : {
+        "excuse" : "I am not feeling good, and don't want to get others sick."
+      },
+      "-KD-P-wvtEeUZOCzIJQK" : {
+        "excuse" : "My in-laws just called and they are arriving early."
+      },
+      "-KD-PPr4wAbCSkt-rRsR" : {
+        "excuse" : "The plumber will only come fix the pipes between noon and four o' clock."
+      },
+      "-KD-PaQdpB6Rad4zDrEf" : {
+        "excuse" : "My neighbor just called and said there is smoke coming from my house."
+      },
+      "-KD-Pl8KOVUEG7kbeL7c" : {
+        "excuse" : "One of my close friends is getting married."
+      },
+      "-KD-PwKVut_ytEvq5-S8" : {
+        "excuse" : "I need to take my neighbor to the airport."
+      },
+      "-KD-Q0q40VK0bKwGWvEb" : {
+        "excuse" : "My children locked themselves out of the house."
+      },
+      "-KD-Q5VnpKzXBjmXtbpi" : {
+        "excuse" : "My husband locked himself out of the car and is late for a meeting."
+      }
+    },
+    "meeting" : {
+      "-KCnE40_SqSC8h3cN6CK" : {
+        "excuse" : "I was taking a crap."
+      },
+      "-KD-G_rURplqV4nnfnrV" : {
+        "excuse" : "That client triggers my anxiety attacks."
+      },
+      "-KD-Q_Li55JevT6zCWZU" : {
+        "excuse" : "If I attend the meeting, I won't be able to meet the client's deadline."
+      },
+      "-KD-QjVVT2iyhp50buu6" : {
+        "excuse" : "I have another meeting at that time."
+      },
+      "-KD-Qrh2_BaLodMl1ahz" : {
+        "excuse" : "I forgot we were supposed to meet, but here is what I have gotten done."
+      },
+      "-KD-R0b2oi601i49LY8k" : {
+        "excuse" : "I have to go to court for a speeding ticket."
+      },
+      "-KD-RBJ22Rws71K1LLyj" : {
+        "excuse" : "If I come to the meeting, I will have to leave early because I am expecting a phone call."
+      },
+      "-KD-RLPucH6rpiB8NH8e" : {
+        "excuse" : "I'm on a last-minute conference call."
+      }
+    },
+    "misseddeadlines" : {
+      "-KCmvnWz6lIq0jbRJ9sD" : {
+        "excuse" : "I was working on a serious security issue."
+      },
+      "-KD-Gjw9AevsZlnqj_Lh" : {
+        "excuse" : "My religion doesn't believe in deadlines."
+      },
+      "-KD-JPZsTWkaPfD3J5En" : {
+        "excuse" : "I'm 1/100th Polynesian so I thought you meant Hawaii Standard Time, not Eastern Standard Time."
+      },
+      "-KD-JbFRQa-hGhq4ecPU" : {
+        "excuse" : "I couldn't miss the Season Premiere of The Walking Dead."
+      },
+      "-KD-Ju3jUgWDeblWh98-" : {
+        "excuse" : "My kids were feeling neglected, so I spent a few days doing nothing but playing with them."
+      },
+      "-KD-K5v4Zl_bxx2oTVdg" : {
+        "excuse" : "I was on a roll and had to use all of my lives on Candy Crush before I started working."
+      },
+      "-KD-KUfkeOoofIrNKrgX" : {
+        "excuse" : "Our lead actor backed out of the project and we had to find a replacement."
+      },
+      "-KD-KZfYvLHRZsrDEqXt" : {
+        "excuse" : "I forgot to save my work and my computer crashed."
+      },
+      "-KD-KbroPfssgohTImDU" : {
+        "excuse" : "I lost my internet connection."
+      },
+      "-KD-KgYCFmZNT-ZSE5Up" : {
+        "excuse" : "My battery died when the assignment was 98% submitted."
+      },
+      "-KD-Ku0-SPAXyJtoqQh2" : {
+        "excuse" : "I know this project was late, but the next one will be done early."
+      },
+      "-KD-LA50MeSNw1xzRrWc" : {
+        "excuse" : "I sliced my middle finger open with a hatchet, so I couldn't type as quickly as I normally do."
+      },
+      "-KD-LIA5HLBfaoop7TE8" : {
+        "excuse" : "I wrote the wrong date on my calendar."
+      },
+      "-KD-LdeWD_8FaV3A4V_W" : {
+        "excuse" : "It was my 21st birthday, and I was too drunk to work."
+      },
+      "-KD-LgevW_eSrdubO7UR" : {
+        "excuse" : "Wikipedia was down."
+      },
+      "-KD-LqJVwxgO_SKTfuTp" : {
+        "excuse" : "I had the flu and didn't trust myself to work while medicated."
+      },
+      "-KD-LvpGxyg7f6Zwh5qp" : {
+        "excuse" : "I was too busy working on other projects."
+      },
+      "-KD-M3Ls_NFkfv7ynhaN" : {
+        "excuse" : "I couldn't start until my team member was finished, and they missed their deadline too."
+      },
+      "-KD-MACwUALO4aPqYHpV" : {
+        "excuse" : "I thought I was supposed to submit my assignment using the recycle bin."
+      },
+      "-KD-MHgCFdysbSKxzxvU" : {
+        "excuse" : "I was standing in line for the newest iPhone, so I could test the project."
+      },
+      "-KD-MLtEw44tA2eMO21R" : {
+        "excuse" : "My computer got a virus."
+      },
+      "-KD-Nez9lcXRYKBDHWxt" : {
+        "excuse" : "I accidentally put my flashdrive through the wash."
+      },
+      "-KD-NiTIl0opJfFHksVq" : {
+        "excuse" : "I thought completing the assignment was optional."
+      },
+      "-KD-Nu3PTRLWe4rSmMJH" : {
+        "excuse" : "I was too worried about famine in East Africa to work on the project."
+      },
+      "-KD-NxFPhNa4hWu6qXIN" : {
+        "excuse" : "I left my computer in Africa."
+      },
+      "-KD-O0tc8A5EUEmoepbw" : {
+        "excuse" : "*Start crying*"
+      },
+      "-KD-OAMJRYSllH_ZROOX" : {
+        "excuse" : "The Mayans said the world was supposed to end before then, so i didn't bother finishing it."
+      }
+    },
+    "tardiness" : {
+      "-KD-EFJiQQT7TqO3bHOk" : {
+        "excuse" : "It took me an hour to get through traffic."
+      },
+      "-KD-FHrAHvanFnx_qY3m" : {
+        "excuse" : "I left my keys in the house, so I couldn't into my car or my house."
+      },
+      "-KD-FT3-1y15UgyuG80m" : {
+        "excuse" : "There is a bear in my driveway, but I'll come to work as soon as it leaves."
+      },
+      "-KD-ILAYvX4CHE1XyF_H" : {
+        "excuse" : "My carpool forgot to pick me up this morning."
+      },
+      "-KD-IVcDectPB2y_2OKW" : {
+        "excuse" : "I witnessed a car accident."
+      },
+      "-KD-IbuvHpdZgO8lf3F9" : {
+        "excuse" : "My garage door was frozen shut."
       }
     }
   }
