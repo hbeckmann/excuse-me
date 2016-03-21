@@ -24,6 +24,9 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
         console.log(rng);
         self.topExcuse = self.possibleOption[rng].excuse;
         if(self.previousExcuse === self.topExcuse){
+          if(self.possibleOption.length < 2) {
+            return
+          };
           getNewExcuse();
           return;
         };
@@ -34,6 +37,7 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
       if(combinedPath !== self.lastLocation){
         $http.get(combinedPath).then(function(res) {
           console.log("ajax request made!");
+          self.possibleOption = [];
           var random = function(res) {
             for(var x in res.data) {
               if(res.data[x].hasOwnProperty('excuse')){
@@ -75,7 +79,7 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
      })
      .when('/work/:subgenre', {
        templateUrl: 'views/excuserWork.html',
-    })
+     })
       .when('/social', {
         templateUrl: 'views/socialcat.html',
      })
@@ -90,13 +94,13 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
     })
     .when('/funny', {
       templateUrl: 'views/funnycat.html',
-   })
+    })
    .when('/funny/:subgenre', {
      templateUrl: 'views/excuserFunny.html'
-   })
+    })
    .when('/love', {
      templateUrl: 'views/lovecat.html',
-  })
+   })
   .when('/love/:subgenre', {
     templateUrl: 'views/excuserLove.html'
   })
