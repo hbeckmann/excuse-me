@@ -66,6 +66,10 @@ header{
 
 }
 
+.box1 h1 {
+    font-size: 31px;
+}
+
 .ohyeah a:hover{
 	background-color:white;
 }
@@ -214,23 +218,6 @@ background-color: #489b77;
 }
 
 
-
-
-.schoolsub > a{
-	display: block;
-  background-image: url('../img/arrow.png');
-  background-size: 9%;
-  background-repeat: no-repeat;
-  background-position: 92% 50%;
-}
-
-.worksub > a{
-  display: block;
-  background-image: url('../img/arrow1.png');
-  background-size: 9%;
-  background-repeat: no-repeat;
-  background-position: 92% 50%;
-}
 
 .school > a{
 	display: block;
