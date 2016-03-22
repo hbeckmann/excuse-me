@@ -42,6 +42,7 @@ app.get('/submit', function(req,res){
   res.sendFile(path.join(__dirname, './source/submit.html'));
 });
 
+
 app.post('/submit', function(req, res) {
   var subgenre = "";
   if(req.body.subgenre !== "General"){
@@ -57,22 +58,53 @@ app.post('/submit', function(req, res) {
 app.get('/random', function(req,res){
   //Currently only returns a random Genre - need to implement random sub genre and random excuse.
   var refString = "https://excuser.firebaseio.com/excuse/";
-  var possibleGenres = ['school', 'work']
-  var randomIndex = Math.random() * (possibleGenres.length - 0) | 0;
-  var randomGenre = possibleGenres[randomIndex];
+  var possibleGenres = ['school', 'work', 'events', 'funny', 'social', 'love'];
+  function getRandomChild (possible){
+    return Math.random() * (possible.length - 0) | 0;
+  };
+  var randomGenre = possibleGenres[getRandomChild(possibleGenres)];
+  var possibleSubGenre = [];
+  var randomSubGenre = [];
   refString += randomGenre;
   var searchRef = new Firebase(refString);
-  var excuse;
+  var excuses;
+  var excuse = [];
+  var counter = 0;
   searchRef.once("value", function(snapshot){
-    excuse = snapshot.val();
-    res.send(excuse);
+
+    excuses = snapshot.val();
+    getBottomChild();
   }, function (errorObject) {
     console.log(errorObject);
     res.end();
   });
+
+  function getBottomChild() {
+    for(var i in excuses){
+      possibleSubGenre.push(excuses[i]);
+    };
+    randomSubGenre = possibleSubGenre[getRandomChild(possibleSubGenre)];
+    for(var z in randomSubGenre) {
+      excuse.push(randomSubGenre[z]);
+    };
+    console.log(randomSubGenre);
+    console.log(excuse);
+    if(excuse[getRandomChild(excuse)].excuse){
+      res.send(excuse[getRandomChild(excuse)].excuse);
+    }else if(typeof excuse === 'string'){
+      res.send(excuse);
+    }else if(counter > 2){
+      res.send('The server is experiencing an error with the subgenres, please reload and try again.');
+    }else{
+      counter++;
+      getBottomChild();
+    }
+  };
 });
 
-
+app.get('*', function(req, res){
+    res.redirect('/');
+});
 
 
 var port = 9000;

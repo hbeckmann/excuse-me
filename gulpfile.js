@@ -17,7 +17,6 @@ gulp.task('default', function() {
       console.log('server restarting');
   })
 });
-
 gulp.task('test', function(){
     env({vars: {ENV: 'Test'}});
     gulp.src('test/*.js', {read: false})
