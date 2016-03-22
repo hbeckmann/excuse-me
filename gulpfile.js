@@ -20,5 +20,5 @@ gulp.task('default', function() {
 gulp.task('test', function(){
     env({vars: {ENV: 'Test'}});
     gulp.src('test/*.js', {read: false})
-       .pipe(gulpMocha({reporter: 'nyan'}))
+       .pipe(gulpMocha({reporter: 'spec'}))
 });

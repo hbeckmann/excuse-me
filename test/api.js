@@ -1,19 +1,46 @@
 var should = require('should'),
-    request = require('supertest'),
+    request = require('supertest-as-promised'),
     app = require('../server.js'),
     agent = request.agent(app);
 
 
 
 describe('server functionality', function() {
-  it('Should get an excuse',
+  var categories = [];
+
+  it('Should get all 6 categories',
   function(done) {
     agent.get('/excuse')
       .expect(200)
       .end(function(err,results){
-        console.log(results.body);
-        results.body.should.have.property('school');
+        if (err) return done(err);
+
+        var excuses = results.body;
+        //console.log(excuses);
+
+        var excuses = results.body;
+        var categoryCounter = 0;
+
+        console.log('List of all categories: ');
+        for (var category in excuses) {
+          categoryCounter++;
+          categories.push(category);
+          console.log(`${categoryCounter}. ${category}`);
+        }
+        excuses.should.have.property('school' && 'events' && 'funny' && 'love' && 'social' && 'work');
         done();
-      })
-  });
-});
+      })// end of end
+  });// end of it
+
+
+  it('Should test each category endpoint',
+  function() {
+    const promises = categories.map((category) => {
+      console.log(`Testing Category: ${category}...`);
+      return agent.get(`/excuse/${category}`).expect(200);
+    })
+    return Promise.all(promises);
+  });// end of it
+
+
+});// end of describe
