@@ -9,11 +9,14 @@
   </head>
 
   <body ng-controller="excuseSubController as excuser">
+<div class="submit-form">
 
-    Select a genre: <select ng-model="excuser.input" ng-options="item as item.label for item in excuser.genres"></select><select ng-model="excuser.subInput" ng-options="item as item for item in excuser.input.subgenres"></select>
-    Enter an excuse: <input type="text" ng-model="excuser.message">
+    <div class="item">Select Genre: <select ng-model="excuser.input" ng-options="item as item.label for item in excuser.genres"></select></div>
+<div class="item">Select Sub-Genre: <select ng-model="excuser.subInput" ng-options="item as item for item in excuser.input.subgenres"></select></div>
+   <div class="item"> Enter an excuse: <input type="text" ng-model="excuser.message"></div>
     <button ng-click="excuser.submitExcuse()">Submit</button>
 
+</div> <!--end of submit form-->
 
 
   </body>

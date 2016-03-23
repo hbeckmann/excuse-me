@@ -1,3 +1,33 @@
+/*Submit styles */
+.submit-form button {
+    background-color: #EAB44B;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 19px;
+}
+
+.item {
+    padding: 13px;
+}
+
+select.ng-pristine.ng-untouched.ng-valid.ng-not-empty {
+    font-size: 34px;
+}
+
+.submit-form {
+    /* background-color: #EAB44B; */
+    font-size: 22px;
+}
+
+button {
+    background-color: #EAB44B;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 19px;
+}
+
 
 button.ng-scope {
     padding: 10px;
