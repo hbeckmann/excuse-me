@@ -19,6 +19,29 @@
         "-KCYHW3XvPbttPzZtE9F" : {
           "excuse" : "I have a family party anywhere but here."
         }
+      },
+      "sports" : {
+        "-KDVEcrt-8ZVZa7rQAkY" : {
+          "excuse" : "I hate sports."
+        },
+        "-KDVNRbYdi0DGkzHzq1p" : {
+          "excuse" : "My religion forbids watching sports."
+        },
+        "-KDVNllsLoJ-DF1IeMrk" : {
+          "excuse" : "I have to work."
+        },
+        "-KDVO_NfJBH2oA0YKKzQ" : {
+          "excuse" : "I am supposed to go shoe shopping with my mom."
+        },
+        "-KDVOmMR1YHxuszRW2N3" : {
+          "excuse" : "I am allergic to large crowds."
+        },
+        "-KDVOrzE3c6uDz7raskw" : {
+          "excuse" : "I think sports encourage unnecessary violence."
+        },
+        "-KDVP6h9J2gfbFVInabF" : {
+          "excuse" : "I promised my grandma on her death bed that I would never support athletics."
+        }
       }
     },
     "funny" : {
@@ -28,6 +51,9 @@
         },
         "-KD-SRTFlpZ6Njyn0J_w" : {
           "excuse" : "Obama is coming over tonight for some tea and crumpets. At least that is what his text stated. And like they say, never ditch the President, he likes his tea time!"
+        },
+        "-KDVXg7LWyZFM9kZstXM" : {
+          "excuse" : "Vote Trump, make America Great Again!"
         }
       },
       "popculture" : {
@@ -62,6 +88,18 @@
         },
         "-KD-SjHD16dAbZM9Fbpu" : {
           "excuse" : "I am observing National \"Don't Go Out At All Week\". You haven't heard of that yet? Really, it is getting to be very popular in Amsterdam!"
+        },
+        "-KDVR__9CiapiJe_JOlK" : {
+          "excuse" : "I broke my arm reaching to grab a falling sandwich."
+        },
+        "-KDVRfxRd6SRDn9sQLbi" : {
+          "excuse" : "I am stuck under my bed."
+        },
+        "-KDVRl_CEEMceWorLCOy" : {
+          "excuse" : "The universe is telling me not to."
+        },
+        "-KDVRzEOahRArc4sFBwv" : {
+          "excuse" : "I poked myself in the eye wile combing my hair."
         }
       }
     },
@@ -272,6 +310,12 @@
         },
         "-KDOo5rQYlFU1FBq1w8e" : {
           "excuse" : "I changed the lock on my door and now I can't get out."
+        },
+        "-KDVleJ2InKvneb930-R" : {
+          "excuse" : "I have to go to my nephew's wife's brother's mother-in-law's cousin's fiance's bridal shower."
+        },
+        "-KDVoOe7X6g5-LZivy71" : {
+          "excuse" : "I was collaborating with others."
         }
       },
       "cheating" : {
@@ -333,6 +377,12 @@
         },
         "-KCNhbsZ2TUSHaT7Jims" : {
           "excuse" : "My doctor said I was allergic to homework."
+        },
+        "-KDVo2ZL3E30Di_RpDCt" : {
+          "excuse" : "I had to vote."
+        },
+        "-KDVoJLNmb8osBNOGN3J" : {
+          "excuse" : "I was gone doing video nonsense."
         }
       },
       "latework" : {
@@ -396,6 +446,9 @@
         },
         "-KDV0j62SYUGBDcBVt-P" : {
           "excuse" : "Prolonged social interactions gives me hives"
+        },
+        "-KDVXXHLtuK8NggV1sxM" : {
+          "excuse" : "I drank too much beer the other night."
         }
       }
     },
