@@ -1,7 +1,5 @@
 For testing:  
-`npm install gulp`  
-`npm install gulp-nodemon`  
-`npm install gulp-env`  
+`npm install`  
 `gulp test`  
 
 
