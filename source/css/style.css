@@ -1,3 +1,7 @@
+a.nounder:hover {
+    text-decoration: none;
+}
+
 /*Submit styles */
 .submit-form button {
     background-color: #EAB44B;
