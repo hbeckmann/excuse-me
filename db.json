@@ -15,6 +15,11 @@
           "excuse" : "Never liked the guy"
         }
       },
+      "performance" : {
+        "-KDVqjPTK2vVW4V8GoJM" : {
+          "excuse" : "I ran out of Space Jam's Magic Water."
+        }
+      },
       "school" : {
         "-KCYHW3XvPbttPzZtE9F" : {
           "excuse" : "I have a family party anywhere but here."
@@ -52,8 +57,11 @@
         "-KD-SRTFlpZ6Njyn0J_w" : {
           "excuse" : "Obama is coming over tonight for some tea and crumpets. At least that is what his text stated. And like they say, never ditch the President, he likes his tea time!"
         },
-        "-KDVXg7LWyZFM9kZstXM" : {
-          "excuse" : "Vote Trump, make America Great Again!"
+        "-KDVqdPz4GWnyUep8bhI" : {
+          "excuse" : "I have to buy some chocolates for Monica Lewinsky."
+        },
+        "-KDVqwU0AfjwIA3CETwr" : {
+          "excuse" : "I'm not responsible enough to vote"
         }
       },
       "popculture" : {
@@ -316,6 +324,9 @@
         },
         "-KDVoOe7X6g5-LZivy71" : {
           "excuse" : "I was collaborating with others."
+        },
+        "-KDVrA52c4O6V0V87IQF" : {
+          "excuse" : "I was shooting video of little orphan children in Africa."
         }
       },
       "cheating" : {
@@ -366,6 +377,9 @@
         },
         "-KDOwQHbLr0T-uP0fsWr" : {
           "excuse" : "My parents will KILL me if I get a bad grade."
+        },
+        "-KE3nbhZSuneQZT6v6Dk" : {
+          "excuse" : "I didn't copy from the Internet... the Internet copied me!"
         }
       },
       "homework" : {
@@ -383,6 +397,15 @@
         },
         "-KDVoJLNmb8osBNOGN3J" : {
           "excuse" : "I was gone doing video nonsense."
+        },
+        "-KDVra3xg9VDUtdDSfmA" : {
+          "excuse" : "Sorry I didn't get my assignment in, I don't know JavaScript, because I took an Anthony Romrell C# Class."
+        },
+        "-KDeldHaULjOdQb4O8yx" : {
+          "excuse" : "Was in Africa..."
+        },
+        "-KDelktqpcu_YPQkLnDj" : {
+          "excuse" : "I ran out of gas on the freeway"
         }
       },
       "latework" : {
@@ -391,6 +414,24 @@
         },
         "-KD-JfOcnYuWo4YU0xL2" : {
           "excuse" : "I’m late with this assignment because I haven’t actually read the book, and I thought your keen sense of morality would appreciate honesty much more than a faked report."
+        },
+        "-KDenw-YWWwd--9T4BKk" : {
+          "excuse" : "Power went out at my house"
+        },
+        "-KDeoF83bVMzbeVqxpVX" : {
+          "excuse" : "I was throwing down some sick beats with Tyler Searle"
+        },
+        "-KDeoGwYmFpV3sdf9FuQ" : {
+          "excuse" : "I was throwing down some sick beats with Dr. T"
+        },
+        "-KDeoKzqXwYNkCVRtief" : {
+          "excuse" : "Recording a podcast session with Salt City Sports"
+        },
+        "-KDeoWNKkB-eBkLoxrDB" : {
+          "excuse" : "Out late last night with my lady friend"
+        },
+        "-KDeoasET9uPCMBQRV-C" : {
+          "excuse" : "Woke up super tired from being in Africa.  Did you know I was in Africa"
         }
       },
       "tardiness" : {
@@ -408,11 +449,23 @@
         },
         "-KD6K-AdchAPQPGvHdEy" : {
           "excuse" : "I've been in the bathroom all morning."
+        },
+        "-KDVroE5oHbSuQHjDQNz" : {
+          "excuse" : "I was buying Skiliff some almond M&M's at Scoops."
         }
       },
       "tests" : {
         "-KCNjW9Og6n2nPUp9s5c" : {
           "excuse" : "I was so nervous, I pooped my pants."
+        },
+        "-KDVrOBE8trcAaRmbye-" : {
+          "excuse" : "My mind was on the hot date I have tonight at 7:30 p.m. sharp!"
+        },
+        "-KDerBjGfrj7qBRKgeiv" : {
+          "excuse" : "Listening to Dr. T throw down some sick beats and forgot about the test"
+        },
+        "-KDerFUCbZfWF20oMLwQ" : {
+          "excuse" : "Videos wouldn't load in my browser..."
         }
       }
     },
@@ -449,6 +502,12 @@
         },
         "-KDVXXHLtuK8NggV1sxM" : {
           "excuse" : "I drank too much beer the other night."
+        },
+        "-KDegfwQuLLgOsDYW163" : {
+          "excuse" : "I partied with Asher Roth last night, I'm pretty tired."
+        },
+        "-KE3ofL7sPDMIGipz79N" : {
+          "excuse" : "I'm an only child.  I don't know how to share."
         }
       }
     },
@@ -645,6 +704,15 @@
         },
         "-KD-OAMJRYSllH_ZROOX" : {
           "excuse" : "The Mayans said the world was supposed to end before then, so i didn't bother finishing it."
+        },
+        "-KDWHqjiA6weXb6nDi7-" : {
+          "excuse" : "Was in the bathroom."
+        },
+        "-KE3lSY3MrGCqQEHdErb" : {
+          "excuse" : "I'm a Millennial.  Don't judge me!"
+        },
+        "-KE3o1wfcHMB17Hpn1hb" : {
+          "excuse" : "I had the form filled out, hit the back button, and all my data disappeared.  So, I had to fill it all out again."
         }
       },
       "tardiness" : {
@@ -665,6 +733,9 @@
         },
         "-KD-IbuvHpdZgO8lf3F9" : {
           "excuse" : "My garage door was frozen shut."
+        },
+        "-KE3oO7NNF51Rs3cd3s2" : {
+          "excuse" : "I didn't know about using console.log, so I was always late to work."
         }
       }
     }
