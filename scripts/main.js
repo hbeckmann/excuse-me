@@ -1,6 +1,6 @@
 'use strict'
 angular.module('excuser', ['ngRoute', 'excuseSubmit'])
-  .controller('excuserController', function($http, $location, $scope) {
+  .controller('excuserController', ['$http', '$location', '$scope', function($http, $location, $scope) {
 
     var self = this;
     self.getRandomExcuse = function() {
@@ -56,7 +56,7 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
         getNewExcuse();
       }
     };
-  })
+  }])
   .config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
     $routeProvider
