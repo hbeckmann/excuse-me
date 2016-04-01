@@ -5,7 +5,11 @@ var ref = new Firebase("https://excuser.firebaseio.com/");
 var path = require('path');
 var bodyParser = require('body-parser');
 
-app.use(express.static('build'));
+app.use(express.static('source'));
+app.use(express.static('node_modules/angular/'));
+app.use(express.static('/angular/'));
+app.use(express.static('node_modules/angular-route/'));
+app.use(express.static('scripts'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({'extended': true}));
 
@@ -32,6 +36,18 @@ app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
     res.end();
   });
 
+});
+
+app.post('/excuse/:genre?/:subgenre?/:id?', function(req,res) {
+    console.log(req.params);
+  var refString = "https://excuser.firebaseio.com/excuse/";
+  if(req.params.id && req.params.subgenre && req.params.genre) {
+    refString += req.params.genre.toLowerCase() + '/' + req.params.subgenre + '/-' + req.params.id;
+  }else if(req.params.subgenre && req.params.genre) {
+    refString += req.params.genre + '/' + req.params.subgenre;
+  }else if(req.params.genre) {
+    refString += req.params.genre.toLowerCase();
+  };
 });
 
 app.get('/submit', function(req,res){
