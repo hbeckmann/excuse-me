@@ -1,5 +1,5 @@
 angular.module('excuseSubmit', [])
-  .controller('excuseSubController', function($http) {
+  .controller('excuseSubController', ['$http', function($http) {
 
     var self = this;
     self.genres = [{
@@ -51,4 +51,4 @@ angular.module('excuseSubmit', [])
         })
     };
 
-  });
+  }]);

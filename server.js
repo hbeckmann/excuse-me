@@ -5,11 +5,7 @@ var ref = new Firebase("https://excuser.firebaseio.com/");
 var path = require('path');
 var bodyParser = require('body-parser');
 
-app.use(express.static('source'));
-app.use(express.static('node_modules/angular/'));
-app.use(express.static('/angular/'));
-app.use(express.static('node_modules/angular-route/'));
-app.use(express.static('scripts'));
+app.use(express.static('build'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({'extended': true}));
 
