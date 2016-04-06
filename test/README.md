@@ -2,6 +2,11 @@ For testing:
 `npm install`  
 `gulp test`  
 
+For Selenium-webdriver testing:  
+`npm install`  
+You may have to global install mocha, selenium-webdriver, and chromedriver  
+`npm install -g mocha selenium-webdriver chromedriver`  
+
 
 Basic Testing Plan - March 1, 2016
 Excuser App Testing Plan
