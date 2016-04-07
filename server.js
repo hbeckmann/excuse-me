@@ -14,9 +14,11 @@ app.use(express.static('node_modules/angular/'));
 app.use(express.static('/angular/'));
 app.use(express.static('node_modules/angular-route/'));
 app.use(express.static('scripts'));
+*/
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({'extended': true}));
-*/
+
 
 app.get('/excuse/:genre?/:subgenre?/:id?', function(req,res){
 
@@ -61,6 +63,7 @@ app.get('/submit', function(req,res){
 
 app.post('/submit', function(req, res) {
   var subgenre = "";
+  console.log(req.body);
   if(req.body.subgenre !== "General"){
     subgenre = req.body.subgenre;
     subgenre = subgenre.replace(/\s+/g, '');
