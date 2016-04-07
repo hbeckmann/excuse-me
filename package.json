@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "web-test": "mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -32,10 +33,15 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "chromedriver": "^2.21.2",
+    "coffee-script": "^1.10.0",
     "gulp-concat": "^2.6.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
+    "mocha": "^2.4.5",
+    "selenium-webdriver": "^2.53.1",
     "supertest": "^1.2.0",
     "supertest-as-promised": "^3.0.0"
   }
