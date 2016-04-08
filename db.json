@@ -293,6 +293,36 @@
         },
         "-KDOu_Vk5lIGDZrVHX_v" : {
           "excuse" : "I figured you'd remind me about it, since you tell me about every thing else I do wrong."
+        },
+        "-KEnsAF81z6Jb3LxUeQa" : {
+          "excuse" : "The children used all of my brain power"
+        },
+        "-KEnsHa99TJn8sUs2OwW" : {
+          "excuse" : "Everyday that I'm with you is special.  Why should I make a fuss about one day in the year?"
+        },
+        "-KEnsN_FeZfkSVuglcRM" : {
+          "excuse" : "The dog ate my calendar."
+        },
+        "-KEnsUT2Tt4W29qJxfW7" : {
+          "excuse" : "I was kind of busy having your baby."
+        },
+        "-KEnsYMRpRdGMl--BWoC" : {
+          "excuse" : "You didn't marry me for my brains."
+        },
+        "-KEnsdq5jx7ubVAagZBC" : {
+          "excuse" : "I thought that we only celebrated every four years."
+        },
+        "-KEnsgWge-sk_-4h5rxA" : {
+          "excuse" : "You never reminded me."
+        },
+        "-KEnslg87ZBmgxeZqan9" : {
+          "excuse" : "I forgot what day of the week it was."
+        },
+        "-KEnsy0An6IaiWEntqhj" : {
+          "excuse" : "Our anniversary is tomorrow.  I can't believe you forgot the exact date!"
+        },
+        "-KEntAzB7XLEP5vl1ord" : {
+          "excuse" : "Anniversary of what?"
         }
       }
     },
@@ -424,6 +454,9 @@
         },
         "-KEEDDf0KlFFf4k3-TxE" : {
           "excuse" : "I forgot to study my adverbs..."
+        },
+        "-KEn6Iat0Y-W3Aa6-tNt" : {
+          "excuse" : "My backpack was stolen."
         }
       },
       "latework" : {
@@ -473,6 +506,30 @@
         },
         "-KEEDI6Cc5ji3Lp3bDUR" : {
           "excuse" : "Swung by and got some pizza"
+        },
+        "-KEnuralNOYr3uOgZhaq" : {
+          "excuse" : "I decided to take a homeless man for breakfast."
+        },
+        "-KEnuz7A6ra4vtNohfrU" : {
+          "excuse" : "I had to rescue a puppy from the canal."
+        },
+        "-KEnv2x8ojfu__zPExvH" : {
+          "excuse" : "I had to help a old lady after she go stuck in a tree."
+        },
+        "-KEnyHb7Qzs0vEqsafAG" : {
+          "excuse" : "I forgot to set my clocks back for daylight savings."
+        },
+        "-KEnyVVGWYWAtGX5vC1I" : {
+          "excuse" : "I’m sorry I’m late, I couldn’t find my glasses and put on my sister’s clothes, got on the wrong bus and went to the wrong school."
+        },
+        "-KEnyjdD52dFZjygY1jn" : {
+          "excuse" : "I told Siri to help me get to school, but she took me to the movie theater instead."
+        },
+        "-KEnz0oYUwOG1YebcgtX" : {
+          "excuse" : "I’m sorry, I thought it was Sunday."
+        },
+        "-KEnzE8HEd2JL2fb12lE" : {
+          "excuse" : "I’m sorry that I'm late, but I brought you a treat."
         }
       },
       "tests" : {
@@ -537,9 +594,6 @@
     },
     "work" : {
       "absence" : {
-        "-KD-CWYYkYlm-PnxnhqY" : {
-          "excuse" : "My kids are sick."
-        },
         "-KD-Dr9QmvKyhF-bIXgV" : {
           "excuse" : "I have an appointment that I have been trying to schedule for months."
         },
