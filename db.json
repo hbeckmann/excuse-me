@@ -110,6 +110,9 @@
         },
         "-KEyNhZ06OjiWB-C7ULc" : {
           "excuse" : "I was busy feeling the Bern."
+        },
+        "-KFdpW7iopl0Frlf-nE8" : {
+          "excuse" : "I need to find my polling place."
         }
       },
       "popculture" : {
@@ -526,6 +529,9 @@
         },
         "-KEn6Iat0Y-W3Aa6-tNt" : {
           "excuse" : "My backpack was stolen."
+        },
+        "-KFe0kxLVs0rpQZpil2s" : {
+          "excuse" : "We had no food in the house. I can’t do homework on an empty stomach. Can you?"
         }
       },
       "latework" : {
@@ -552,6 +558,48 @@
         },
         "-KDeoasET9uPCMBQRV-C" : {
           "excuse" : "Woke up super tired from being in Africa.  Did you know I was in Africa"
+        },
+        "-KFdzGtB-WSf_3TQeEId" : {
+          "excuse" : "I have been stealing my neighbor's wifi signal, but the moved so I couldn't email you the assignment."
+        },
+        "-KFe-AYgJp0Xo_MEASoq" : {
+          "excuse" : "My backpack was stolen."
+        },
+        "-KFe-GqAHH2zvMR9qjZv" : {
+          "excuse" : "I left my binder in my mom's car and she's at work across town."
+        },
+        "-KFe-L0MlpbNSPlyipN4" : {
+          "excuse" : "I stayed at my dad's this weekend and left it there and my mom refuses to let me go back and get it."
+        },
+        "-KFe-PS6YMv-aB_34Np6" : {
+          "excuse" : "It's that \"time of the month.\""
+        },
+        "-KFe-USgLYPJ3X9qDdGR" : {
+          "excuse" : "I had to take care of my baby sister who was up last night throwing up."
+        },
+        "-KFe-nna5IpB-98FCsg6" : {
+          "excuse" : "I didn't do it because I didn't want to add another assignment to grade to your workload."
+        },
+        "-KFe-rz_kWZliWmFWXrD" : {
+          "excuse" : "My mother took it to have it framed."
+        },
+        "-KFe024ko162rgJFkMtW" : {
+          "excuse" : "You said do questions 1-10. You didn't say bring them in."
+        },
+        "-KFe0DnK4DKqum5Cng81" : {
+          "excuse" : "I left it in my bedroom, but now my house is being fumigated."
+        },
+        "-KFe0GSOZlsV73cUyFPz" : {
+          "excuse" : "My Dad accidentally put it in his briefcase and took it to work."
+        },
+        "-KFe0Ozb0qhnlbUJhhVg" : {
+          "excuse" : "My locker is jammed and I can't get my homework out of it."
+        },
+        "-KFe0SR1OAIfulY3MLic" : {
+          "excuse" : "Some aliens from outer space borrowed it so they could study how the human brain worked."
+        },
+        "-KFe0chNVMe0DP1UoSFF" : {
+          "excuse" : "I left it on your desk last Friday but its just not here and it was handwritten so I can't print it off again, took me ages!"
         }
       },
       "tardiness" : {
@@ -785,6 +833,9 @@
         },
         "-KEyPu-OmaGXS3r3_n2U" : {
           "excuse" : "I accidentally go on a plane."
+        },
+        "-KFduF8AlS26TVOtsKaq" : {
+          "excuse" : "I have to stay home and watch my child because they got suspended for swearing."
         }
       },
       "leavingearly" : {
@@ -852,6 +903,39 @@
         },
         "-KD-RLPucH6rpiB8NH8e" : {
           "excuse" : "I'm on a last-minute conference call."
+        },
+        "-KFdoo-uQHJ56p3p5CAF" : {
+          "excuse" : "I've worked really hard the past few weeks, so I've earned a break."
+        },
+        "-KFdotr-n9C11sXLKhSB" : {
+          "excuse" : "I'm playing golf with a client."
+        },
+        "-KFdoykBWRMIE8WIRvMV" : {
+          "excuse" : "I have a doctor's appointment."
+        },
+        "-KFdp0sCv9lnnC2MIxIA" : {
+          "excuse" : "I have cramps."
+        },
+        "-KFdp6xo_2dqv75IunMO" : {
+          "excuse" : "I'm working from home today, I'll be able to get more done."
+        },
+        "-KFdpDGhJGqSobOOc7a9" : {
+          "excuse" : "There was a death in my family."
+        },
+        "-KFdpIIMx_ssK1xUUCHO" : {
+          "excuse" : "I'm too sleepy."
+        },
+        "-KFdpP6xQLjKdzhFHCEL" : {
+          "excuse" : "I can't get my car out of the garage."
+        },
+        "-KFdpsl3KXsQm8PufQ0_" : {
+          "excuse" : "I am suffering a severe case of hangry and shouldn't meet clients right now."
+        },
+        "-KFdti7JBcHZ-lI_vjm-" : {
+          "excuse" : "I had bad sushi for lunch and I think I am getting a case of food poisoning."
+        },
+        "-KFdu1ZixgN1GVMuXSjY" : {
+          "excuse" : "I have too much mental anxiety over [life event] to go to a meeting right now."
         }
       },
       "misseddeadlines" : {
