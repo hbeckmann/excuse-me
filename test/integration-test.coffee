@@ -45,22 +45,22 @@ describe 'Test Home page Category links and subcategories', ->
     @driver.get 'localhost:9000'
 
   categoryList = ['School', 'Work', 'Social', 'Events', 'Funny', 'Love']
-  for i in categoryList
-    it 'Testing Category link \'' + i + '\'', ->
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/' + i.toLowerCase()
+  categoryList.forEach (element, index, array) ->
+    it 'Testing Category link \'' + element + '\'', ->
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/' + element.toLowerCase()
 
 describe 'Test All Subcategory pages for School', ->
   beforeEach ->
     @timeout 2000
     @driver.get 'localhost:9000'
 
-  subCatList = ['Homework', 'Absence', 'Tardiness', 'Test', 'Late']
-  for i in subCatList
-    it 'Testing Subcategory link \'' + i + '\'', ->
+  subCatList = ['Homework', 'Absence', 'Tardiness', 'Tests', 'Late']
+  subCatList.forEach (element, index, array) ->
+    it 'Testing Subcategory link \'' + element + '\'', ->
       @driver.findElement(linkText: 'School').click()
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/school/' + i.toLowerCase()
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/school/' + element.toLowerCase()
 
 describe 'Test All Subcategory pages for Work', ->
   beforeEach ->
@@ -68,11 +68,11 @@ describe 'Test All Subcategory pages for Work', ->
     @driver.get 'localhost:9000'
 
   subCatList = ['Missed Deadlines', 'Absence', 'Tardiness', 'Meeting', 'Leaving Early']
-  for i in subCatList
-    it 'Testing Subcategory link \'' + i + '\'', ->
+  subCatList.forEach (element, index, array) ->
+    it 'Testing Subcategory link \'' + element + '\'', ->
       @driver.findElement(linkText: 'Work').click()
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/work/' + i.toLowerCase().replace(' ', '')
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/work/' + element.toLowerCase().replace(' ', '')
 
 describe 'Test All Subcategory pages for Social', ->
   beforeEach ->
@@ -80,11 +80,11 @@ describe 'Test All Subcategory pages for Social', ->
     @driver.get 'localhost:9000'
 
   subCatList = ['Party', 'Dance']
-  for i in subCatList
-    it 'Testing Subcategory link \'' + i + '\'', ->
+  subCatList.forEach (element, index, array) ->
+    it 'Testing Subcategory link \'' + element + '\'', ->
       @driver.findElement(linkText: 'Social').click()
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/social/' + i.toLowerCase()
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/social/' + element.toLowerCase()
 
 describe 'Test All Subcategory pages for Events', ->
   beforeEach ->
@@ -92,11 +92,11 @@ describe 'Test All Subcategory pages for Events', ->
     @driver.get 'localhost:9000'
 
   subCatList = ['Funeral', 'Family', 'School', 'Performance', 'Sports']
-  for i in subCatList
-    it 'Testing Subcategory link \'' + i + '\'', ->
+  subCatList.forEach (element, index, array) ->
+    it 'Testing Subcategory link \'' + element + '\'', ->
       @driver.findElement(linkText: 'Events').click()
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/events/' + i.toLowerCase()
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/events/' + element.toLowerCase()
 
 describe 'Test All Subcategory pages for Funny', ->
   beforeEach ->
@@ -104,11 +104,11 @@ describe 'Test All Subcategory pages for Funny', ->
     @driver.get 'localhost:9000'
 
   subCatList = ['Pop Culture', 'Political', 'Ridiculous']
-  for i in subCatList
-    it 'Testing Subcategory link \'' + i + '\'', ->
+  subCatList.forEach (element, index, array) ->
+    it 'Testing Subcategory link \'' + element + '\'', ->
       @driver.findElement(linkText: 'Funny').click()
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/funny/' + i.toLowerCase().replace(' ', '')
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/funny/' + element.toLowerCase().replace(' ', '')
 
 describe 'Test All Subcategory pages for Love', ->
   beforeEach ->
@@ -116,8 +116,8 @@ describe 'Test All Subcategory pages for Love', ->
     @driver.get 'localhost:9000'
 
   subCatList = ['Date', 'Break Up', 'Forget Anniversary', 'In Laws']
-  for i in subCatList
-    it 'Testing Subcategory link \'' + i + '\'', ->
+  subCatList.forEach (element, index, array) ->
+    it 'Testing Subcategory link \'' + element + '\'', ->
       @driver.findElement(linkText: 'Love').click()
-      @driver.findElement(linkText: i).click()
-      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/love/' + i.toLowerCase().replace(' ', '')
+      @driver.findElement(linkText: element).click()
+      expect(@driver.getCurrentUrl()).to.eventually.equal 'http://localhost:9000/love/' + element.toLowerCase().replace(' ', '')
