@@ -884,6 +884,12 @@
         },
         "-KFduF8AlS26TVOtsKaq" : {
           "excuse" : "I have to stay home and watch my child because they got suspended for swearing."
+        },
+        "-KFuq0LMG6TbAdO_XTVE" : {
+          "excuse" : "I have the Bird Flu and I must be flying south for the winter."
+        },
+        "-KFuq83YPE9BUwoNh0nK" : {
+          "excuse" : "My daughter is projectile vomiting this green pea soup and twisting her heads all the way around, 360 degrees. The priest is coming and I need to be here to let him in."
         }
       },
       "leavingearly" : {
@@ -925,6 +931,18 @@
         },
         "-KD-Q5VnpKzXBjmXtbpi" : {
           "excuse" : "My husband locked himself out of the car and is late for a meeting."
+        },
+        "-KFuqCVa9gGISJuPT9Em" : {
+          "excuse" : "I have temporary insanity; I only have it on the third Thursday of each month."
+        },
+        "-KFutpv30TEixvueczeF" : {
+          "excuse" : "I have Mad Cow Disease so I’m pretty mad right now.  I have to leave early"
+        },
+        "-KFutruZ6xpdeWzoo6RD" : {
+          "excuse" : "The doctor said I’m allergic to Mondays."
+        },
+        "-KFutvEFOlL2AHRuKRcb" : {
+          "excuse" : "I got food poisoning from some bad roadkill from Lunch"
         }
       },
       "meeting" : {
@@ -984,6 +1002,9 @@
         },
         "-KFdu1ZixgN1GVMuXSjY" : {
           "excuse" : "I have too much mental anxiety over [life event] to go to a meeting right now."
+        },
+        "-KFutzK-V2_ABFbnj8y-" : {
+          "excuse" : "I have insomnia, so I probably won’t be able to get to sleep at the meeting today."
         }
       },
       "misseddeadlines" : {
@@ -1076,6 +1097,9 @@
         },
         "-KE3o1wfcHMB17Hpn1hb" : {
           "excuse" : "I had the form filled out, hit the back button, and all my data disappeared.  So, I had to fill it all out again."
+        },
+        "-KFuq4DHEC2V2LzIfXgn" : {
+          "excuse" : "My kid has this high fever and is projectile vomiting. Oh and he also has diarrhea. I could probably make it in, though. (Don’t worry, they’ll tell you to stay home and take care of the kid!)"
         }
       },
       "tardiness" : {
@@ -1108,6 +1132,9 @@
         },
         "-KEyQ4s8-iQme42rK1My" : {
           "excuse" : "I was sitting in the bathroom and my feet and legs fell asleep."
+        },
+        "-KFuqFfHZ86Zo-uHwcL2" : {
+          "excuse" : "I have laryngitis Oh yeah, this is my er, son, calling for me."
         }
       }
     }
