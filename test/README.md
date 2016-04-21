@@ -7,6 +7,11 @@ For Selenium-webdriver testing:
 You may have to global install mocha, selenium-webdriver, and chromedriver  
 `npm install -g mocha selenium-webdriver chromedriver`  
 
+To run webdriver test:  
+`npm start`  
+In new terminal tab or window:  
+`mocha test/integration-test.coffee --compilers coffee:coffee-script/register`  
+
 
 Basic Testing Plan - March 1, 2016
 Excuser App Testing Plan
