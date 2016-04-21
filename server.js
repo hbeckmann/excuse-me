@@ -106,8 +106,6 @@ app.get('/random', function(req,res){
     for(var z in randomSubGenre) {
       excuse.push(randomSubGenre[z]);
     };
-    console.log(randomSubGenre);
-    console.log(excuse);
     if(excuse[getRandomChild(excuse)].excuse){
       res.send(excuse[getRandomChild(excuse)].excuse);
     }else if(typeof excuse === 'string'){

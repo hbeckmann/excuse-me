@@ -7,6 +7,7 @@ angular.module('excuser', ['ngRoute', 'excuseSubmit'])
       if($location.path() == "/"){
         $http.get('/random').then(function(res) {
             console.log(res.data);
+            self.topExcuse = res.data;
         })
       } else {
         self.getTopExcuse();
