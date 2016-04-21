@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "web-test": "mocha",
+    "web-test": "mocha test/integration-test.coffee --compilers coffee:coffee-script/register",
     "start": "node server.js"
   },
   "repository": {
