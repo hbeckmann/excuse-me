@@ -10,7 +10,7 @@ You may have to global install mocha, selenium-webdriver, and chromedriver
 To run webdriver test:
 `npm start`  
 In new terminal tab or window:
-`mocha test/integration-test.coffee --compilers coffee:coffee-script/register`  
+`npm run web-test`  
 
 
 Basic Testing Plan - March 1, 2016
