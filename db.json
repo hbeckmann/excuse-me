@@ -45,6 +45,21 @@
         },
         "-KEtQM9A5muKlpo4IoJK" : {
           "excuse" : "I'm too well to go, thanks though."
+        },
+        "-KGIlGAqUDBseehW9E64" : {
+          "excuse" : "My ears are sensitive to music of any kind."
+        },
+        "-KGIlONSrKYqfiXLK3pW" : {
+          "excuse" : "I have anxiety about large crowds of people."
+        },
+        "-KGIlSP0WIBgs2JlWs-N" : {
+          "excuse" : "I actually saw that concert yesterday."
+        },
+        "-KGIl_K-fpU845VFXJIx" : {
+          "excuse" : "I'm still bitter because they didn't give me a part."
+        },
+        "-KGIlhXMQ_nXm51GEj9s" : {
+          "excuse" : "I have a condition where I can't sit and watch anything longer than 20 minutes."
         }
       },
       "school" : {
@@ -88,6 +103,21 @@
         },
         "-KDVP6h9J2gfbFVInabF" : {
           "excuse" : "I promised my grandma on her death bed that I would never support athletics."
+        },
+        "-KGIiVORjab-sHJu1OAQ" : {
+          "excuse" : "They ban me from the stadium after starting a fight with another fan."
+        },
+        "-KGIifiAeiYeP7lHGlZw" : {
+          "excuse" : "I don't want to embarrass you with my excessive cheering."
+        },
+        "-KGIim-poFpwDWKNlotS" : {
+          "excuse" : "I would go, but the team always loses when I watch their games."
+        },
+        "-KGIk6SudhY_sPf2hak0" : {
+          "excuse" : "I was forced to put a lot of money on the team's win, and I don't want to jinx anything by being at the game."
+        },
+        "-KGIkAnaeBndGo6wCMIK" : {
+          "excuse" : "I have a fear of football players."
         }
       }
     },
@@ -468,6 +498,18 @@
         },
         "-KFuoV-htI4bp62Nygmp" : {
           "excuse" : "I couldn’t find a sitter."
+        },
+        "-KFuz3FY4vNLoCCENudQ" : {
+          "excuse" : "The principal is a bully."
+        },
+        "-KFuz4jQHV_KVkkqG_oI" : {
+          "excuse" : "I played video games so long that I developed carpal tunnel syndrome and now I can’t hold a pencil.I played video games so long that I developed carpal tunnel syndrome and now I can’t hold a pencil."
+        },
+        "-KFuz6KZSzXgajFjJwg9" : {
+          "excuse" : "The dog ate my homework and needs to be put down now. I feel I should be with him in the end."
+        },
+        "-KGIp3ILIOphs9ZeG7oE" : {
+          "excuse" : "I thought we only had class on the second Thursday of every third month."
         }
       },
       "cheating" : {
@@ -562,6 +604,9 @@
         },
         "-KFe0kxLVs0rpQZpil2s" : {
           "excuse" : "We had no food in the house. I can’t do homework on an empty stomach. Can you?"
+        },
+        "-KFv-DXGjUMDB51eSafR" : {
+          "excuse" : "I ate my homework!"
         }
       },
       "latework" : {
@@ -636,6 +681,9 @@
         },
         "-KFuoC1xABDKUt2T-0_Q" : {
           "excuse" : "My pants fell down, I tripped and broke my arm."
+        },
+        "-KFuz8Y4Vgx2KPfzyZtZ" : {
+          "excuse" : "I am CEO of an internet start-up and I must attend a stockholder’s meeting."
         }
       },
       "tardiness" : {
@@ -712,6 +760,21 @@
         },
         "-KFu9uJ7S4QktyXYHoQ_" : {
           "excuse" : "I thought someone stole my car."
+        },
+        "-KFuz0a5Pogu-ISJgQdY" : {
+          "excuse" : "The teacher wants me to play a ‘tasting game."
+        },
+        "-KGInGCtWOQQp4eWCF6I" : {
+          "excuse" : "I set my alarm for Wednesday instead of Tuesday."
+        },
+        "-KGInQovN0KKF7w7x7_U" : {
+          "excuse" : "My turtle ate my study guide."
+        },
+        "-KGIndXf7XKb0zJEDvT8" : {
+          "excuse" : "I've never been good at coloring in scantrons."
+        },
+        "-KGInpObUiDCO5vl-_bt" : {
+          "excuse" : "Wait, we were supposed to take a test yesterday?"
         }
       }
     },
@@ -829,6 +892,9 @@
         },
         "-KEyVNWhVMW_Fd9c2097" : {
           "excuse" : "I just don't want to."
+        },
+        "-KFvKQyMsC6aybL2TZNf" : {
+          "excuse" : "I don't know how to dance"
         }
       }
     },
@@ -893,6 +959,9 @@
         },
         "-KFuuwpXZ8PU6_OOPfuR" : {
           "excuse" : "I stayed home in solidarity to all the kids working in sweatshops in China."
+        },
+        "-KGIpXAbFMHz7OpzW6SX" : {
+          "excuse" : "I plan to observe National Don't Go to Work Day that Bernie Sanders just passed as a federal holiday."
         }
       },
       "leavingearly" : {
@@ -946,6 +1015,24 @@
         },
         "-KFutvEFOlL2AHRuKRcb" : {
           "excuse" : "I got food poisoning from some bad roadkill from Lunch"
+        },
+        "-KFuy8p1KOveZ7PSkmQx" : {
+          "excuse" : "A guy from the city is coming to inspect the addition we are building and this is the only time he could come in the next six weeks, I have to leave early"
+        },
+        "-KFuyAvhFdzAMa14diIp" : {
+          "excuse" : "My mother-in-law is coming to visit and I need to pick her up at the airport."
+        },
+        "-KFuyCgBQclmY-nhOStu" : {
+          "excuse" : "My mother-in-law is coming to visit and I need to pick up my medication from the doctor."
+        },
+        "-KFuyFG4O5UWdKarIGSY" : {
+          "excuse" : "My mother-in-law is leaving so I’m throwing a party i have to prepare for it"
+        },
+        "-KFuyJACTgUDvBJYn_aO" : {
+          "excuse" : "According to the guy who stands on my street corner, holding a sign, tomorrow is the end of the world, I need to buy potato chips"
+        },
+        "-KFuyUoL4C4QQ3NZjOlt" : {
+          "excuse" : "Some guy parked a truck in my driveway. I found him and he needed to use my phone, so then he got in a conversation with my parrot. Then he told me about his parrot that sings Frank Sinatra songs. He invited me to come over to check out his parrot but it would have to be right then because his sister is taking the parrot to New York for an audition. His parrot knows more Frank Sinatra songs than I do, but I taught him a beetles tune. Bet you don’t know which one, I am meeting him right now to throw some songs down with his parrot."
         }
       },
       "meeting" : {
@@ -1008,6 +1095,33 @@
         },
         "-KFutzK-V2_ABFbnj8y-" : {
           "excuse" : "I have insomnia, so I probably won’t be able to get to sleep at the meeting today."
+        },
+        "-KFux6ZPve02ECbi7wjh" : {
+          "excuse" : "My boyfriend said he’d kill me if he saw me, so I couldn’t come out of the house for 3 days."
+        },
+        "-KFux9hVThUzuJe_asJT" : {
+          "excuse" : "A police helicopter kept flying over my house and announcing things like don’t come out  -  stay inside your house so I couldn't come to the meeting"
+        },
+        "-KFuxEClcE7fWJAv3_xg" : {
+          "excuse" : "The gas meter reader tripped over a bunch of garbage and stuff I had accumulated outside so I missed the meeting"
+        },
+        "-KFuxOEOI9Jnm_J2KqMy" : {
+          "excuse" : "My pants got all muddy so I washed and dried my pants for myself and by the time I got done it was too late for the meeting"
+        },
+        "-KFuxREJffqF5-cSvvVN" : {
+          "excuse" : "My car fell into a sinkhole coming to the meeting"
+        },
+        "-KFuxTW1uo53baaC8UrM" : {
+          "excuse" : "My wife took my keys by mistake so I missed the meeting"
+        },
+        "-KFuxV6LwOYO6tLrAeLu" : {
+          "excuse" : "The cable guy is coming tomorrow and this is the only time he would come in the next six weeks."
+        },
+        "-KFuxY6oeMRIZa-BqFEd" : {
+          "excuse" : "My internet is down so I will be waiting in the service que on the phone all day tomorrow during the meeting"
+        },
+        "-KFux_CxM71FScgWlsrd" : {
+          "excuse" : "I need to go to the DMV and stand in line all day tomorrow to get my registration tags."
         }
       },
       "misseddeadlines" : {
